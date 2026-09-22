@@ -1,0 +1,20 @@
+{
+  "name": "omp-custom-statusline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Customize the OMP status line with project context and current-provider usage.",
+  "scripts": {
+    "test": "bun test",
+    "check": "bunx tsc --noEmit"
+  },
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}
